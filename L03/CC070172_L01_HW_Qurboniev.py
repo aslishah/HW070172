@@ -94,7 +94,7 @@ def main():
 
 main()
 
-# 8. Will do this later and seubmit before class. 
+# 8. Will do this later and seubmit before class. I did't really understand the calculation. 
 # 9. This programme converts F to Celsius degrees
 def main():
     print(" This program converts  Fahrenheit to  Celsius")
@@ -123,11 +123,11 @@ main()
 # 12.  Write a caclulator that that allows user to type a mathematical expression
 
 def main():
-    print()
-    print("This is a calculator")
-    print()
-    for i in range (3):
-        mathem_expression = eval(input("White the mathematical expression here: "))
-        print(mathem_expression)
-        #print(input,"=",mathem_expression) I wanted to write another line to print  the mathematical expression on the same line too
+    print()  #print empty lines with print() function
+    print("This is a calculator") #This statement tells  what your programme  does
+    print() #another blank line
+    for i in range (3): #the  loop that defines how many mathematical expression you can run
+        mathem_expression = eval(input("White the mathematical expression here: ")) # you are already familiar with this; in above cases you  entered numbers, here you are adding a mathmatical expression (summation,deletetion etc) which will also be evaluated with the function eval()
+        print(mathem_expression)   #Print the result of the evaluation of your mathematical expression
+        #print(input,"=",mathem_expression) I wanted to write another line to print  the mathematical expression on the same line too, but didn't know how  to do it
 main()
